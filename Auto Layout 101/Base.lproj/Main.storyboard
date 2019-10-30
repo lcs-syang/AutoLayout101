@@ -72,12 +72,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WCY-hu-XY9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WCY-hu-XY9">
+                                <rect key="frame" x="40" y="0.0" width="374" height="736"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="WCY-hu-XY9" firstAttribute="top" secondItem="kA2-fQ-6ZW" secondAttribute="bottom" id="AYK-bV-Lhn"/>
+                            <constraint firstItem="XAa-P9-cuh" firstAttribute="top" secondItem="WCY-hu-XY9" secondAttribute="bottom" id="DoJ-Na-yib"/>
+                            <constraint firstAttribute="trailing" secondItem="WCY-hu-XY9" secondAttribute="trailing" id="YeH-wG-6Tv"/>
+                            <constraint firstItem="WCY-hu-XY9" firstAttribute="leading" secondItem="ncf-hN-ymM" secondAttribute="leading" constant="40" id="sLR-Hz-8N2"/>
+                        </constraints>
                     </view>
                 </viewController>
             </objects>
