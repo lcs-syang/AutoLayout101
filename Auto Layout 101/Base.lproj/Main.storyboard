@@ -158,18 +158,18 @@
                                 <rect key="frame" x="57" y="76" width="300" height="460"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Ar2-Og-JMc">
-                                <rect key="frame" x="28.666666666666657" y="599" width="359" height="30"/>
+                                <rect key="frame" x="28.666666666666686" y="599" width="348" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-MQ-RVZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-MQ-RVZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
                                         <state key="normal" title="Previous"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygY-kC-EAz">
-                                        <rect key="frame" x="159" y="0.0" width="52" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygY-kC-EAz">
+                                        <rect key="frame" x="148" y="0.0" width="52" height="30"/>
                                         <state key="normal" title="Share   "/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKX-PM-nwQ">
-                                        <rect key="frame" x="311" y="0.0" width="48" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKX-PM-nwQ">
+                                        <rect key="frame" x="300" y="0.0" width="48" height="30"/>
                                         <state key="normal" title="Next    "/>
                                     </button>
                                 </subviews>
@@ -177,6 +177,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Ar2-Og-JMc" firstAttribute="width" secondItem="QaR-3d-XTH" secondAttribute="height" multiplier="1:2" id="2HU-Df-Q3q"/>
                             <constraint firstItem="Ar2-Og-JMc" firstAttribute="centerX" secondItem="8Zb-hO-1su" secondAttribute="centerX" id="54J-CX-NwN"/>
                             <constraint firstItem="QaR-3d-XTH" firstAttribute="leading" secondItem="8Zb-hO-1su" secondAttribute="leading" constant="20" symbolic="YES" id="5EZ-Ur-gYI"/>
                             <constraint firstItem="QaR-3d-XTH" firstAttribute="centerX" secondItem="8Zb-hO-1su" secondAttribute="centerX" id="6AN-MD-Z4r"/>
