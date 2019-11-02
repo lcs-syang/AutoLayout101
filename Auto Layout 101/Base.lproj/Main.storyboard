@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -155,37 +155,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="D0GQ9Jl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QaR-3d-XTH">
-                                <rect key="frame" x="57" y="186" width="300" height="300"/>
+                                <rect key="frame" x="57" y="76" width="300" height="460"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="Ar2-Og-JMc">
-                                <rect key="frame" x="20" y="599" width="374" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Ar2-Og-JMc">
+                                <rect key="frame" x="28.666666666666657" y="599" width="359" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-MQ-RVZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="96" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-MQ-RVZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="59" height="30"/>
                                         <state key="normal" title="Previous"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygY-kC-EAz">
-                                        <rect key="frame" x="199" y="0.0" width="40" height="30"/>
-                                        <state key="normal" title="Share"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygY-kC-EAz">
+                                        <rect key="frame" x="159" y="0.0" width="52" height="30"/>
+                                        <state key="normal" title="Share   "/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKX-PM-nwQ">
-                                        <rect key="frame" x="342" y="0.0" width="32" height="30"/>
-                                        <state key="normal" title="Next"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKX-PM-nwQ">
+                                        <rect key="frame" x="311" y="0.0" width="48" height="30"/>
+                                        <state key="normal" title="Next    "/>
                                     </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Ar2-Og-JMc" firstAttribute="centerX" secondItem="8Zb-hO-1su" secondAttribute="centerX" id="54J-CX-NwN"/>
                             <constraint firstItem="QaR-3d-XTH" firstAttribute="leading" secondItem="8Zb-hO-1su" secondAttribute="leading" constant="20" symbolic="YES" id="5EZ-Ur-gYI"/>
                             <constraint firstItem="QaR-3d-XTH" firstAttribute="centerX" secondItem="8Zb-hO-1su" secondAttribute="centerX" id="6AN-MD-Z4r"/>
                             <constraint firstItem="QaR-3d-XTH" firstAttribute="centerY" secondItem="8Zb-hO-1su" secondAttribute="centerY" id="DA3-bi-Ct2"/>
                             <constraint firstAttribute="bottom" secondItem="QaR-3d-XTH" secondAttribute="bottom" constant="20" symbolic="YES" id="DLV-Nd-yhz"/>
-                            <constraint firstItem="Ar2-Og-JMc" firstAttribute="centerY" secondItem="8Zb-hO-1su" secondAttribute="centerY" id="GNg-n8-gB6"/>
-                            <constraint firstItem="Ar2-Og-JMc" firstAttribute="centerX" secondItem="8Zb-hO-1su" secondAttribute="centerX" id="HOf-9e-kCc"/>
-                            <constraint firstAttribute="trailing" secondItem="Ar2-Og-JMc" secondAttribute="trailing" constant="20" symbolic="YES" id="Iai-CV-Q6u"/>
                             <constraint firstAttribute="trailing" secondItem="QaR-3d-XTH" secondAttribute="trailing" constant="20" symbolic="YES" id="O7u-2d-sbr"/>
-                            <constraint firstAttribute="bottom" secondItem="Ar2-Og-JMc" secondAttribute="bottom" constant="686" id="hFa-gp-Iu1"/>
+                            <constraint firstAttribute="bottom" secondItem="Ar2-Og-JMc" secondAttribute="bottom" constant="20" symbolic="YES" id="v7z-le-iLk"/>
                         </constraints>
                     </view>
                 </viewController>
